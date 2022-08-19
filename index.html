@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="main">
+        <section class="gameclass">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </section>
+        <section class="playerclass">
+            <input id="player1" type="text" placeholder="Enter player one">
+            <input id="player2" type="text" placeholder="Enter player two">
+            <div class="btns">
+                <button onclick="startGame()">Start Game</button>
+                <button id="reload" onclick="reloadBtn()" disabled>Reload</button>
+            </div>
+        </section>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
